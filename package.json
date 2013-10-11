@@ -1,0 +1,21 @@
+{
+  "name": "dcl-bootstrap",
+  "version": "0.0.1",
+  "description": "DCL package that adds Twitter Bootstrap styles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "bootstrap": "git+https://github.com/twbs/bootstrap.git"
+  },
+
+  "dcl": {
+    "less": [
+      "node_modules/bootstrap/less/bootstrap.less"
+    ]
+  }
+}
