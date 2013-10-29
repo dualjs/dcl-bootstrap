@@ -1,6 +1,6 @@
 {
   "name": "dcl-bootstrap",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "DCL package that adds Twitter Bootstrap styles",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
 
   "dcl": {
     "less": [
-      "node_modules/bootstrap/less/bootstrap.less"
+      "dcl-bootstrap.less"
     ],
     "resources": [
       "node_modules/bootstrap/fonts/glyphicons-halflings-regular.eot",
